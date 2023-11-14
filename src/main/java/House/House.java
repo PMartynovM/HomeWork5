@@ -20,10 +20,7 @@ public class House {
         nameAndAge.put("Кузнецова Дарья Сергеевна", 16);
         nameAndAge.put("Филиппов Михаил Маркович", 29);
 
-//        ArrayList<Integer> values = new ArrayList<>(nameAndAge.values());
-//        ArrayList<String> keys = new ArrayList<>(nameAndAge.keySet());
-//
-//        System.out.println("Ключи: " + keys + "Значения: " + values);
+
 
         List<String> listOldHuman = new ArrayList<>();
 
@@ -34,8 +31,6 @@ public class House {
                 listOldHuman.add(key);
                 String lastElement = listOldHuman.get(listOldHuman.size() - 1);
 
-//                System.out.println(lastElement);
-//                System.out.println("Жильцы, которым больше 18-ти лет: " + key + " " + value);
             }
         }
         Collections.sort(listOldHuman);
