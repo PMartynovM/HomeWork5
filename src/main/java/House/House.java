@@ -1,9 +1,6 @@
 package House;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class House {
     public static void main(String[] args) {
@@ -41,6 +38,7 @@ public class House {
 //                System.out.println("Жильцы, которым больше 18-ти лет: " + key + " " + value);
             }
         }
+        Collections.sort(listOldHuman);
         System.out.println(listOldHuman);
         System.out.println("Количество жильцов старше 17: " + listOldHuman.size() + " человек");
     }
